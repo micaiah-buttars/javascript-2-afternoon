@@ -14,7 +14,11 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+const me = {
+  name: `Micaiah`,
+  age: 21
+}
+console.log(me.age)
 
 
 
@@ -25,7 +29,14 @@
   Have the values to those keys be your favorite thing in that category.
 */
 
-//Code here
+const favoriteThings = {
+  band: `null`,
+  food: `chocolate`,
+  person: `mom`,
+  book: `bold of you to assume i can read`,
+  movie: `Lord of the Rings`,
+  holiday: `do lunar/solar eclipses count?`
+}
 
 
 
@@ -33,7 +44,8 @@
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = `Honda`;
+favoriteThings.brand = `brand loyalty is a capitalist ideal`
 
 
 
@@ -41,7 +53,8 @@
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food = `Chicken Nuggets`
+favoriteThings.book = `Harry Potter`
 
 
 
